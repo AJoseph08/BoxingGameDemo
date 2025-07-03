@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GameDemo</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+      
+           <div id="Character1_MainBox" class="square" style="width: 300px; height: 180px; top: 116px; left: 100px; background-color: #transparent; border: 2px transparent; border-color: #030303; border-radius: 0px;">
+               <img id="Character1_Img" src="https://i.postimg.cc/GpSNwhX2/punch-1-T-Pic.png" alt="">
+           <div id="Character1_MovementBoundary" class="square" style="width: 95px; height: 132px; top: 91px; left: 132px; background-color: #transparent; border: 2px transparent; border-radius: 10px;">
+               </div>
+           <div id="Character1_AttackBoundary" class="square" style="width: 45px; height: 42px; top: 65px; left: 200px; background-color: #transparent; border: 2px transparent; border-radius: 10px;">
+               </div>
+           <div id="Character1_DamageAnimnation" class="square" style="width: 225px; height: 148px; top: 85px; left: 125px; background-color: #transparent; border: 2px transparent; border-radius: 10px;">
+               <img id="Character1_DamageGif" src="https://i.postimg.cc/d071MdYH/karate-damage-clip-T.gif" alt="">
+               </div>  
+               </div>
+      
+        <div id="SpawnZone1" class="square" style="width: 110px; height: 160px; top: 95px; left: 150px; background-color: transparent; border-radius: 0px; border: 5px dotted transparent; justify-content: center; align-items: center;"></div>
+      
+        <div id="Character1_Button1" class="square" style="width: 30px; height: 40px; top: 242px; left: 35px; background-color: #transparent; border-radius: 0px; border: 2px solid transparent; border-radius: 5px;">
+            <img src="https://i.postimg.cc/SN7qhVm2/Left-Arrow.png" alt=""></div>
+        <div id="Character1_Button2" class="square" style="width: 40px; height: 30px; top: 215px; left: 68px; background-color: #transparent; border-radius: 0px; border: 2px solid transparent; border-radius: 5px;">
+            <img src="https://i.postimg.cc/1XjTKnSQ/Up-Arrow.png" alt=""></div>
+        <div id="Character1_Button3" class="square" style="width: 30px; height: 40px; top: 242px; left: 101px; background-color: #transparent; border-radius: 0px; border: 2px solid transparent; border-radius: 5px;">
+            <img src="https://i.postimg.cc/L5XwfkrD/Right-Arrow.png" alt=""></div>
+        <div id="Character1_Button4" class="square" style="width: 40px; height: 30px; top: 270px; left: 68px; background-color: #transparent; border-radius: 0px; border: 2px solid transparent; border-radius: 5px;">
+            <img src="https://i.postimg.cc/NfwYSZvv/Down-Arrow.png" alt=""></div>
+        <div id="Character1_Button5" class="square" style="width: 80px; height: 80px; top: 245px; left: 170px; background-color: #transparent; border-radius: 0px; border: 2px solid transparent; border-radius: 5px;">
+            <img src="https://i.postimg.cc/QNJnNzW3/Punch-Button.png" alt=""></div>
+
+      
+           <div id="Character2_MainBox" class="square" style="width: 300px; height: 180px; top: 25px; left: 300px; background-color: #transparent; border: 2px transparent; border-color: #030303; border-radius: 0px; transform: scaleX(-1);">
+               <img id="Character2_Img" src="https://i.postimg.cc/GpSNwhX2/punch-1-T-Pic.png" alt="">
+           <div id="Character2_MovementBoundary" class="square" style="width: 95px; height: 132px; top: 91px; left: 132px; background-color: #transparent; border: 2px transparent; border-radius: 10px;">
+               </div>
+           <div id="Character2_AttackBoundary" class="square" style="width: 45px; height: 42px; top: 65px; left: 200px; background-color: #transparent; border: 2px transparent; border-radius: 10px;">
+               </div>
+           <div id="Character2_DamageAnimnation" class="square" style="width: 225px; height: 148px; top: 85px; left: 125px; background-color: #transparent; border: 2px transparent; border-radius: 10px;">
+               <img id="Character2_DamageGif" src="https://i.postimg.cc/d071MdYH/karate-damage-clip-T.gif" alt="">
+               </div>
+               </div>
+      
+        <div id="SpawnZone2" class="square" style="width: 110px; height: 160px; top: 95px; left: 400px; background-color: transparent; border-radius: 0px; border: 5px dotted transparent; justify-content: center; align-items: center;"></div>
+      
+        <div id="Character2_Button1" class="square" style="width: 30px; height: 40px; top: 242px; left: 405px; background-color: #transparent; border-radius: 0px; border: 2px solid transparent; border-radius: 5px;">
+            <img src="https://i.postimg.cc/SN7qhVm2/Left-Arrow.png" alt=""></div>
+        <div id="Character2_Button2" class="square" style="width: 40px; height: 30px; top: 215px; left: 438px; background-color: #transparent; border-radius: 0px; border: 2px solid transparent; border-radius: 5px;">
+            <img src="https://i.postimg.cc/1XjTKnSQ/Up-Arrow.png" alt=""></div>
+        <div id="Character2_Button3" class="square" style="width: 30px; height: 40px; top: 242px; left: 471px; background-color: #transparent; border-radius: 0px; border: 2px solid transparent; border-radius: 5px;">
+            <img src="https://i.postimg.cc/L5XwfkrD/Right-Arrow.png" alt=""></div>
+        <div id="Character2_Button4" class="square" style="width: 40px; height: 30px; top: 270px; left: 438px; background-color: #transparent; border-radius: 0px; border: 2px solid transparent; border-radius: 5px;">
+            <img src="https://i.postimg.cc/NfwYSZvv/Down-Arrow.png" alt=""></div>
+        <div id="Character2_Button5" class="square" style="width: 80px; height: 80px; top: 245px; left: 540px; background-color: #transparent; border-radius: 0px; border: 2px solid transparent; border-radius: 5px;">
+            <img src="https://i.postimg.cc/QNJnNzW3/Punch-Button.png" alt=""></div>
+
+      
+        <div id="BorderA" class="square" style="width: 596px; height: 10px; top: 5px; left: 50%; background-color: #000000; border-radius: 0px; border: 2px solid black;"></div>
+        <div id="BorderB" class="square" style="width: 596px; height: 10px; top: 292px; left: 50%; background-color: #000000; border-radius: 0px; border: 2px solid black;"></div>
+        <div id="BorderC" class="square" style="width: 10px; height: 296px; top: 50%; left: 5px; background-color: #000000; border-radius: 0px; border: 2px solid black;"></div>
+        <div id="BorderD" class="square" style="width: 10px; height: 296px; top: 50%; left: 592px; background-color: #000000; border-radius: 0px; border: 2px solid black;"></div>
+        <div id="BorderE" class="square" style="width: 596px; height: 10px; top: 193px; left: 50%; background-color: #000000; border-radius: 0px; border: 2px solid black;"></div>
+
+        <div id="ScoreBox1" class="square" style="width: 30px; height: 30px; top: 25px; left: 25px; background-color: #ffffff; border-radius: 0px; border: 2px solid black;"></div>
+        <div id="ScoreBox2" class="square" style="width: 30px; height: 30px; top: 25px; left: 572px; background-color: #ffffff; border-radius: 0px; border: 2px solid black;"></div>
+        <div id="ResetButton" class="square" style="width: 60px; height: 30px; top: 272px; left: 300px; background-color: #fa460c; border-radius: 0px; border: 2px solid black;">RESET</div>  
+        
+        <script src="script.js"></script>
+</body>
+</html>
